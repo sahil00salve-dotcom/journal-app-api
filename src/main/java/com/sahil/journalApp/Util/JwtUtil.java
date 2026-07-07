@@ -13,7 +13,7 @@ public class JwtUtil {
 
     // Must be at least 32 characters for HS256
     private static final String SECRET =
-            "8hK9!xP2#mQ7@vL4$zR1&nB6*wF3^tY8";
+            "Secret_key";
 
     private final SecretKey key =
             Keys.hmacShaKeyFor(SECRET.getBytes());
